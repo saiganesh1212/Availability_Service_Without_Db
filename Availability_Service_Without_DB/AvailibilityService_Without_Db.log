@@ -1,0 +1,107 @@
+﻿INFO  11:54:46 Application started. Press Ctrl+C to shut down.
+INFO  11:54:46 Application started. Press Ctrl+C to shut down.
+INFO  11:54:46 Hosting environment: Development
+INFO  11:54:46 Hosting environment: Development
+INFO  11:54:46 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Availability_Service_Without_DB
+INFO  11:54:46 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Availability_Service_Without_DB
+INFO  12:15:49 Application started. Press Ctrl+C to shut down.
+INFO  12:15:49 Application started. Press Ctrl+C to shut down.
+INFO  12:15:49 Hosting environment: Development
+INFO  12:15:49 Hosting environment: Development
+INFO  12:15:49 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Availability_Service_Without_DB
+INFO  12:15:49 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Availability_Service_Without_DB
+ERROR 12:20:06 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Availability_Service_Without_DB.Repository.IAvailabilityRepo' while attempting to activate 'Availability_Service_Without_DB.Controllers.AvailabilityController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 12:20:06 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Availability_Service_Without_DB.Repository.IAvailabilityRepo' while attempting to activate 'Availability_Service_Without_DB.Controllers.AvailabilityController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  12:26:05 Application started. Press Ctrl+C to shut down.
+INFO  12:26:05 Application started. Press Ctrl+C to shut down.
+INFO  12:26:05 Hosting environment: Development
+INFO  12:26:05 Hosting environment: Development
+INFO  12:26:05 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Availability_Service_Without_DB
+INFO  12:26:05 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Availability_Service_Without_DB
+INFO  12:28:15 Getting all flights
+INFO  12:36:16 Application started. Press Ctrl+C to shut down.
+INFO  12:36:16 Application started. Press Ctrl+C to shut down.
+INFO  12:36:16 Hosting environment: Development
+INFO  12:36:16 Hosting environment: Development
+INFO  12:36:16 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Availability_Service_Without_DB
+INFO  12:36:16 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Availability_Service_Without_DB
+INFO  06:39:55 Application started. Press Ctrl+C to shut down.
+INFO  06:39:55 Application started. Press Ctrl+C to shut down.
+INFO  06:39:55 Hosting environment: Development
+INFO  06:39:55 Hosting environment: Development
+INFO  06:39:55 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Availability_Service_Without_DB
+INFO  06:39:55 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Availability_Service_Without_DB
+INFO  06:50:03 Application started. Press Ctrl+C to shut down.
+INFO  06:50:03 Application started. Press Ctrl+C to shut down.
+INFO  06:50:03 Hosting environment: Development
+INFO  06:50:03 Hosting environment: Development
+INFO  06:50:03 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Availability_Service_Without_DB
+INFO  06:50:03 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Availability_Service_Without_DB
+INFO  06:52:17 Getting all flights
+INFO  06:53:02 Getting all flights
+INFO  06:54:51 Getting availability of flight with id 3
+INFO  06:55:11 Reducing the capacity of Flight with id 3
+INFO  06:55:11 Successfully reduced capacity of id 3
+INFO  07:01:23 Application started. Press Ctrl+C to shut down.
+INFO  07:01:24 Application started. Press Ctrl+C to shut down.
+INFO  07:01:24 Hosting environment: Development
+INFO  07:01:24 Hosting environment: Development
+INFO  07:01:24 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Availability_Service_Without_DB
+INFO  07:01:24 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Availability_Service_Without_DB
+INFO  07:02:39 Getting all flights
+INFO  07:03:29 Getting availability of flight with id 2
+INFO  07:03:41 Reducing the capacity of Flight with id 2
+INFO  07:03:41 Successfully reduced capacity of id 2
+INFO  07:27:28 Application started. Press Ctrl+C to shut down.
+INFO  07:27:28 Application started. Press Ctrl+C to shut down.
+INFO  07:27:28 Hosting environment: Development
+INFO  07:27:28 Hosting environment: Development
+INFO  07:27:28 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Availability_Service_Without_DB
+INFO  07:27:28 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Availability_Service_Without_DB
+INFO  07:29:16 Getting all flights
+INFO  07:29:51 Getting availability of flight with id 1
+INFO  07:30:00 Reducing the capacity of Flight with id 1
+INFO  07:30:00 Successfully reduced capacity of id 1
+INFO  07:38:37 Application started. Press Ctrl+C to shut down.
+INFO  07:38:37 Application started. Press Ctrl+C to shut down.
+INFO  07:38:37 Hosting environment: Development
+INFO  07:38:37 Hosting environment: Development
+INFO  07:38:37 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Availability_Service_Without_DB
+INFO  07:38:37 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Availability_Service_Without_DB
+INFO  07:39:34 Getting all flights
+INFO  07:40:26 Getting availability of flight with id 1
+INFO  07:40:41 Reducing the capacity of Flight with id 1
+INFO  07:40:41 Successfully reduced capacity of id 1
+INFO  07:41:29 Getting all flights
